@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #A6A6A6;
+}
+body div{
+    width: 70%;
+    border: 1px solid #000000;
+    margin: 15px 0;
+    background-color: #F2F2F2;
+}
+header{
+    margin: 5px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#foto{
+    width: 150px;
+    border: 1px solid #000000;
+    border-radius: 25%; 
+}
+header section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+main{
+    margin:40px 100px;
+    width: 100%;
+}
+#imagem{
+    height: 300px;
+}
+a:link, a:visited{
+    color:#262626;
+}
