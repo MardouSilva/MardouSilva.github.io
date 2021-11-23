@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5FF042;
+    color: #A3261C;
+}
+body div{
+    margin-top: 20px;
+    padding: 2.5%;
+    width: 70%;
+    border: 2px solid #A35324;
+    border-radius: 10%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#imagem{
+    height: 150px;
+    margin: auto 20px;
+}
+main, footer{
+    text-align: center;
+}
