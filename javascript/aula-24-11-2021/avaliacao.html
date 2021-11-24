@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avalie-nos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bloco">
+        <h1>Supermercado Alpha</h1>
+        <form>
+            <h2>Avalie-nos</h2>
+            <div class="lado">
+                <label for="nome">NOME:</label>
+                <input type="text" name="nome" id="nome" value="" placeholder="Seu nome">
+            </div>
+            <div class="lado">
+                <label for="nota">Nota de 1 a 5:</label>
+                <input type="number" min="1" max="5" name="nota" id="nota" value="">
+            </div>
+            <div id="botao" onclick="capturar()">CONCLUIR</div>
+        </form>
+        <div id="resultado">
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
