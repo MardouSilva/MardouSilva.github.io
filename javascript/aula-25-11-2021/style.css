@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: ghostwhite;
+}
+body div{
+    text-align: center;
+}
+form{
+    text-align: center;
+    background-color: black;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input{
+    font-size: 2em;
+    width: 47%;
+    height: 2.2em;
+    margin-top: 5px;
+    overflow: auto;
+}
+button{
+    font-size: 2em;
+    margin: 5px;
+    width: 45%;
+    height: 2.2em;
+}
+form div{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+h2{
+    color: #ffffff;
+    width: 100%;
+}
