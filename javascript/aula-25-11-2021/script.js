@@ -9,7 +9,7 @@ function calculo(tipo){
 
     //Soma
     if(tipo===1){
-        final = valor1 + valor2;
+        final = parseInt(valor1) + parseInt(valor2);
     }
     //Subtração
     else if(tipo===2){
