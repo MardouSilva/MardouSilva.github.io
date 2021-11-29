@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: #339C33;
+}
+header{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    background-color: #1b1e1b;
+    color: #024f02;
+    justify-content: left;
+}
+img{
+    height: 90%;
+    border-radius: 25%;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+main{
+    display: flex;
+    background-color: #339C33;
+    color: #ffffff;
+    width: 100%;
+    justify-content: center;
+    margin: 20px;
+    border-bottom: 1px solid black;
+}
+form{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main form section{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 40%;
+    height: 200px;
+    justify-content: space-evenly;
+    border: double 5px #1b1e1b;
+    padding-left: 5px;
+}
+h2{
+    color: #1b1e1b;
+    width: 100%;
+    text-align: center;
+}
+h3{
+    color: #1b1e1b;
+}
+button{
+    font-size: 1.6em;
+    background-color: #ffffff;
+    color: #1b1e1b;
+}
+#pedido{
+    background-color: #ffffff;
+    width: 50%;
+    padding: 10px;
+}
+#pedidoValor{
+    width: 100%;
+    text-align: center;
+}

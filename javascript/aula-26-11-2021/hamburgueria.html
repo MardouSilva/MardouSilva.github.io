@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguer Fino Sabor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo.png">
+        <h1>Hamburgueria Fino Sabor</h1>
+    </header>
+    <main>
+        <form>
+            <h2>Monte seu hamburguer aqui</h2>
+            <section>
+                <h3>Opções de pão:</h3>
+                <div>
+                    <input type="radio" name="pao" value="pFrances">
+                    <label for="pao">Pão Francês - R$ 3,00</label>
+                </div>
+                <div>
+                    <input type="radio" name="pao" value="pAustraliano">
+                    <label for="pao">Pão Australiano - R$ 8,00</label>
+                </div>
+                <div>
+                    <input type="radio" name="pao" value="pBrioche">
+                    <label for="pao"> Pão Brioche - R$ 6,00</label>
+                </div>
+            </section>
+            <section>
+                <h3>Opções de hamburguer:</h3>
+                <div>
+                    <input type="radio" name="hamburguer" value="cPicanha">
+                    <label for="hamburguer">Picanha - R$ 13,00</label>
+                </div>
+                <div>
+                    <input type="radio" name="hamburguer" value="cCostela">
+                    <label for="hamburguer">Costela - R$ 10,00</label>
+                </div>
+                <div>
+                    <input type="radio" name="hamburguer" value="cVegano">
+                    <label for="hamburguer">Vegano - R$ 12,00</label>
+                </div>
+            </section>
+            <section>
+                <h3>Opções de salada:</h3>
+                <div>
+                     <input type="checkbox" name="sAlface" id="sAlface" value="1">
+                    <label for="sAlface">Alface - R$ 1,50 </label>
+                </div>
+                <div>
+                    <input type="checkbox" name="sTomate" id="sTomate" value="1">
+                    <label for="sTomate">Tomate - R$ 1,50</label>
+                </div>
+            </section>
+            <section>
+                <h3>Opções de queijo: </h3>
+                <div>
+                    <input type="checkbox" name="queijo" id="qMussarela" value="qMussarela">
+                    <label for="queijo">Mussarela - R$ 3,00</label>
+                    
+                </div>
+                <div>
+                    <input type="checkbox" name="queijo" id="qPrato" value="qPrato">
+                    <label for="queijo">Prato - R$ 3,00</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="queijo" id="qCheddar" value="qCheddar">
+                    <label for="queijo">Cheddar - R$ 5,00</label>
+                </div>
+            </section>
+            <button type="button" onclick="imprimir()" id="conluir">Concluir Pedido</button>
+        </form>
+    </main>
+    <section id="pedido" hidden>
+        <h2>Pedido a fazer</h2>
+        <ul>
+            <li id="pedidoPao"></li>
+            <li id="pedidoHam"></li>
+            <li id="pedidoSal"></li>
+            <li id="pedidoQue"></li>
+        </ul>
+        <h3 id="pedidoValor"></h3>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
