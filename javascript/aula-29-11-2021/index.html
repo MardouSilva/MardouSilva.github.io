@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escreva na lousa Bart!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Escreva na lousa Bart!</h1>
+    </header>
+    <main>
+        <form id="formulario">
+            <label for="punicao">Quantas vezes Bart deve escrever na lousa?</label>
+            <input type="number" name="punicao" id="punicao" min="0">
+            <button type="button" onclick="escrever()"  id="iniciar">Iniciar punição!</button>
+        </form>
+        <div id="lousa">
+        </div>
+        <h3 id="final"></h3>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

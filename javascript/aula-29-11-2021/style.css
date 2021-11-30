@@ -1,0 +1,65 @@
+@font-face{
+    font-family: "eradust";
+    src: url("fonts/erasdust.ttf");
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcdc0450;
+    font-family: "eradust";
+}
+header{
+    display: flex;
+    height: 8em;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #00551e;
+    background-color: #fcdc04;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("imagens/quadro.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 84%;
+    margin: 15px;
+    color: #fcdc04;
+}
+form{
+    margin:30px;
+    font-size: 25px;
+}
+p, h3{
+    margin: 5px 30px;
+    font-size: 25px;
+    color: #ffffff;
+}
+h3{
+    margin-bottom: 20px;
+}
+input{
+    font-size: 25px;
+    background-color: #00551e;
+    border: #fcdc04 solid 1px;
+    box-shadow: #fcdc04 inset 2px 2px 2px;
+    font-family: "eradust";
+    color:#fcdc04;
+}
+button{
+    background-color: #00551e;
+    border: #fcdc04 solid 1px;
+    box-shadow: #fcdc04 inset 2px 2px 2px;
+    font-size: 25px;
+    color: #fcdc04;
+    font-family: "eradust";
+}
