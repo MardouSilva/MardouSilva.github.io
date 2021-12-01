@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrida entre Amigos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Corrida entre Amigos</h1>
+        <section>
+            <h2 id="escolha">Selecione qual tipo de corrida deseja</h2>
+            <form>
+                <button type="button" id="cRapido" onclick="rapida()"><span>Corrida Rápida</span><span>-10 voltas-</span></button>
+                <button type="button" id="cPremio" onclick="premio()"><span>Grande Prêmio</span><span>-70 voltas-</span></button>
+                <button type="button" id="cEnduro" onclick="enduro()"><span>Enduro</span><span>-160 voltas-</span></button>
+            </form>
+        </section>
+        <section id="podio">
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
