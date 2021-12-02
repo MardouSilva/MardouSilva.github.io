@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+main{
+    width: 70%;
+    background-color: rgb(88, 88, 86);
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+section p{
+    font-size: 1.3em;
+}
+section{
+    margin: 2%;
+    width: 96%;
+    background-color: rgb(95, 158, 160);
+}
+form{
+    margin: 15px;
+}
+main p{
+    font-size: 1.3em;
+    margin: 15px;
+}
+button, input{
+    font-size: 1.1;
+    padding: 2px;
+}
