@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(141, 141, 141);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 420px;
+    text-align: center;
+}
+#jogo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.blocoLinha{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    font-size: 5em;
+    width: 130px;
+    height: 130px;
+    margin: 4px;
+}
+#reiniciar{
+    font-size: 2em;
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+#vez{
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 3px;
+}

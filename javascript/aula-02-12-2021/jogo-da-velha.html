@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Jogo da Velha</h1>
+        <h2 id="vez">Vez: O</h2>
+        <div id="jogo">
+            <div id="linha0" class="blocoLinha">
+                <button type="button" onclick="marcar(0,0)">-</button>
+                <button type="button" onclick="marcar(0,1)">-</button>
+                <button type="button" onclick="marcar(0,2)">-</button>
+            </div>
+            <div id="linha1" class="blocoLinha">
+                <button type="button" onclick="marcar(1,0)">-</button>
+                <button type="button" onclick="marcar(1,1)">-</button>
+                <button type="button" onclick="marcar(1,2)">-</button>
+            </div>
+            <div id="linha2" class="blocoLinha">
+                <button type="button" onclick="marcar(2,0)">-</button>
+                <button type="button" onclick="marcar(2,1)">-</button>
+                <button type="button" onclick="marcar(2,2)">-</button>
+            </div>
+        </div>
+        <button type="button" id="reiniciar" onclick="reset()">Reiniciar</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
