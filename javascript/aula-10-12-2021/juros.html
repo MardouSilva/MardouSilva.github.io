@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de juros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Calculo de juros</h1>
+        <form id="registro">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" value=>
+            <label for="valor">Valor da compra: </label>
+            <input type="number" name="valor" id="valor" value=>
+            <label for="vencimento">Data de vencimento: </label>
+            <input type="date" name="vencimento" id="vencimento" required value=>
+            <button type="button" onclick="adicionar()">Listar</button>
+        </form>
+        <section id="devedores">
+            <h2>Lista de devedores atual</h2>
+        </section>
+        <form id="calculo">
+            <label for="atual">Data atual: </label>
+            <input type="date" name="atual" id="atual" required value=>
+            <button type="button" onclick="calcular()">Calcular juros</button>
+        </form>
+        <h3 id="totalJuros"></h3>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
