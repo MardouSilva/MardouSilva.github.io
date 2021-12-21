@@ -1,0 +1,17 @@
+body{
+    color:rgb(11, 11, 214);
+    width: 100vw;
+    background-color: rgb(236, 156, 8);
+}
+h1{
+    border: 2px solid rgb(11, 11, 214);
+    width: 100vw;
+    margin:10px 0;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+button{
+    background-color:rgb(11, 11, 214);
+    font-size: 1.4em;
+}
