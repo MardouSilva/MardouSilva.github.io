@@ -1,0 +1,55 @@
+@font-face {
+    font-family: calculator;
+    src: url('./Calculator.ttf');
+}
+html{
+    font-family: calculator;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(161, 161, 172);
+}
+h1{
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 253, 253);
+    width: 450px;
+    border: solid 2px black;
+    padding: 3px;
+}
+#keys{
+    display: flex;
+    width: 100%;
+}
+#operator{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: rgb(161, 161, 172);
+    font-size: 50px;
+    border-radius: 10%;
+    font-family: calculator;
+}
+p{
+    height: 100px;
+    width: 435px;
+    border: double 5px black;
+    margin: 2px;
+    background-color: #ffffff;
+    font-size: 80px;
+    text-align: right;
+}
+#exception button{
+    width: 155px;
+}

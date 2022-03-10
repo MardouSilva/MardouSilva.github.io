@@ -1,0 +1,30 @@
+body {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(27, 26, 26);
+  height: 100vh;
+}
+button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: darkmagenta;
+}
+div {
+  height: 2em;
+}
+.fontGreen {
+  color: chartreuse;
+}
+.fontRed {
+  color: crimson;
+}
